@@ -14,6 +14,9 @@
 		048477E82B10723D00D1F0DE /* scrumdingerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048477E72B10723D00D1F0DE /* scrumdingerTests.swift */; };
 		048477F22B10723D00D1F0DE /* scrumdingerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048477F12B10723D00D1F0DE /* scrumdingerUITests.swift */; };
 		048477F42B10723D00D1F0DE /* scrumdingerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048477F32B10723D00D1F0DE /* scrumdingerUITestsLaunchTests.swift */; };
+		04CE9A172B110A7500CE2D0C /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CE9A162B110A7500CE2D0C /* DetailView.swift */; };
+		04CE9A182B110A7500CE2D0C /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CE9A162B110A7500CE2D0C /* DetailView.swift */; };
+		04CE9A192B110A7500CE2D0C /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CE9A162B110A7500CE2D0C /* DetailView.swift */; };
 		04EEA88D2B10B75500697AD3 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04EEA88C2B10B75500697AD3 /* Theme.swift */; };
 		04EEA88F2B10B87100697AD3 /* DailyScrum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04EEA88E2B10B87100697AD3 /* DailyScrum.swift */; };
 		04EEA8932B10B9DC00697AD3 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04EEA8922B10B9DC00697AD3 /* CardView.swift */; };
@@ -55,6 +58,7 @@
 		048477ED2B10723D00D1F0DE /* scrumdingerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = scrumdingerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		048477F12B10723D00D1F0DE /* scrumdingerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = scrumdingerUITests.swift; sourceTree = "<group>"; };
 		048477F32B10723D00D1F0DE /* scrumdingerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = scrumdingerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		04CE9A162B110A7500CE2D0C /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
 		04EEA88C2B10B75500697AD3 /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
 		04EEA88E2B10B87100697AD3 /* DailyScrum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyScrum.swift; sourceTree = "<group>"; };
 		04EEA8922B10B9DC00697AD3 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
@@ -118,6 +122,7 @@
 				048477DA2B10723C00D1F0DE /* Assets.xcassets */,
 				048477DC2B10723C00D1F0DE /* Preview Content */,
 				04EEA89A2B10CD2F00697AD3 /* ScrumsView.swift */,
+				04CE9A162B110A7500CE2D0C /* DetailView.swift */,
 			);
 			path = scrumdinger;
 			sourceTree = "<group>";
@@ -287,6 +292,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				04EEA88F2B10B87100697AD3 /* DailyScrum.swift in Sources */,
+				04CE9A172B110A7500CE2D0C /* DetailView.swift in Sources */,
 				04EEA8972B10C28000697AD3 /* TrailingIconLabelStyle.swift in Sources */,
 				04EEA88D2B10B75500697AD3 /* Theme.swift in Sources */,
 				04EEA89B2B10CD2F00697AD3 /* ScrumsView.swift in Sources */,
@@ -303,6 +309,7 @@
 				04EEA8942B10B9DC00697AD3 /* CardView.swift in Sources */,
 				04EEA8982B10C28000697AD3 /* TrailingIconLabelStyle.swift in Sources */,
 				048477E82B10723D00D1F0DE /* scrumdingerTests.swift in Sources */,
+				04CE9A182B110A7500CE2D0C /* DetailView.swift in Sources */,
 				04EEA89C2B10CD2F00697AD3 /* ScrumsView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -312,6 +319,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				048477F42B10723D00D1F0DE /* scrumdingerUITestsLaunchTests.swift in Sources */,
+				04CE9A192B110A7500CE2D0C /* DetailView.swift in Sources */,
 				04EEA8952B10B9DC00697AD3 /* CardView.swift in Sources */,
 				048477F22B10723D00D1F0DE /* scrumdingerUITests.swift in Sources */,
 				04EEA89D2B10CD2F00697AD3 /* ScrumsView.swift in Sources */,
