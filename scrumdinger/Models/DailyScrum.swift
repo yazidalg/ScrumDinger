@@ -7,7 +7,7 @@
 
 import Foundation
 
-struct DailyScrum {
+struct DailyScrum: Identifiable {
     let id: UUID
     var title: String
     var attendees: [Attendee]
@@ -31,7 +31,7 @@ struct DailyScrum {
     }
 }
 
-extension DailyScrum {
+extension DailyScrum{
     struct Attendee: Identifiable {
         let id : UUID
         var name : String
