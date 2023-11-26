@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		042F691B2B13495400C5B88C /* DetailEditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042F691A2B13495400C5B88C /* DetailEditView.swift */; };
+		042F691D2B135A1000C5B88C /* ThemeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042F691C2B135A1000C5B88C /* ThemeView.swift */; };
 		048477D72B10723700D1F0DE /* scrumdingerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048477D62B10723700D1F0DE /* scrumdingerApp.swift */; };
 		048477D92B10723700D1F0DE /* MeetingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048477D82B10723700D1F0DE /* MeetingView.swift */; };
 		048477DB2B10723C00D1F0DE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 048477DA2B10723C00D1F0DE /* Assets.xcassets */; };
@@ -50,6 +51,7 @@
 
 /* Begin PBXFileReference section */
 		042F691A2B13495400C5B88C /* DetailEditView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailEditView.swift; sourceTree = "<group>"; };
+		042F691C2B135A1000C5B88C /* ThemeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeView.swift; sourceTree = "<group>"; };
 		048477D32B10723700D1F0DE /* scrumdinger.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = scrumdinger.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		048477D62B10723700D1F0DE /* scrumdingerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = scrumdingerApp.swift; sourceTree = "<group>"; };
 		048477D82B10723700D1F0DE /* MeetingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingView.swift; sourceTree = "<group>"; };
@@ -102,6 +104,7 @@
 				04CE9A162B110A7500CE2D0C /* DetailView.swift */,
 				04EEA89A2B10CD2F00697AD3 /* ScrumsView.swift */,
 				042F691A2B13495400C5B88C /* DetailEditView.swift */,
+				042F691C2B135A1000C5B88C /* ThemeView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -310,6 +313,7 @@
 				04EEA89B2B10CD2F00697AD3 /* ScrumsView.swift in Sources */,
 				048477D92B10723700D1F0DE /* MeetingView.swift in Sources */,
 				048477D72B10723700D1F0DE /* scrumdingerApp.swift in Sources */,
+				042F691D2B135A1000C5B88C /* ThemeView.swift in Sources */,
 				04EEA8932B10B9DC00697AD3 /* CardView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
